@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "cl.exe",
+            "intelliSenseMode": "windows-msvc-x64",
+            "includePath": [
+                "C:\\msys64\\mingw64\\include",
+                "${workspaceFolder}/**"
+            ]
+        }
+    ],
+    "version": 4
+}

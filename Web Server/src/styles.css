@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ccccff;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+h1{
+    color: #62b3f1;
+    font-size: 45px;
+}
+h2, h3 {
+    color: #444;
+    font-size: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.server-status {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.responsive-img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 10px 0;
+}
+
+video, audio {
+    width: 80%;
+    max-width: 600px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1691ef;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

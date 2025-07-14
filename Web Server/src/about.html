@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Web Server Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #afcdf4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0073e6;
+        }
+        .profile-info {
+            flex: 1;
+        }
+        .profile-info a {
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .profile-info a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>About the Web Server Project</h1>
+
+        <p>This project is a custom-built web server developed in C to handle HTTP requests efficiently on Windows. The server listens on port 9090, processes client requests, and serves static files such as HTML, CSS, JavaScript, images, PDFs, and audio/video files. It is designed with key features like:
+
+            <li>Multi-threading for handling multiple client requests simultaneously</li><li>Error handling for invalid requests and missing files</li><li>Support for multiple file types (e.g., .html, .css, .js, .jpg, .png, .mp4, .mp3, .pdf)</li><li>Optimized performance through caching and efficient request handling</li>
+            The project also involved overcoming various compilation errors, linker issues, and missing dependencies, leading to a deeper understanding of network programming and system-level debugging.</p>
+        <h2>Technologies Used</h2>
+        <ul>
+            <li><b>Programming Language:</b> C</li>
+            <li><b>Networking:</b> Windows Sockets (Winsock2)</li>
+            <li><b>Operating System:</b> Windows</li>
+            <li><b>Methods: </b> GET</li>
+            <li><b>Protocols: </b>HTTP</li>
+            <li><b>Security: </b>Not Implemented</li>
+            <li><b>Multithreading:</b> _beginthread for handling multiple clients</li>
+            <li><b>File Handling:</b> Efficient file serving for multiple MIME types</li>
+        </ul>
+
+        <h2>Creator Details</h2>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div class="profile-info">
+                <p><b>Name:</b> Sachini Ariyarathne</p>
+                <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sachini-ariyarathne-108149287" target="_blank">View Profile</a></p>
+                <p><b>Date Created:</b> February 2025</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 Sachini | Web Server Project
+        </div>
+    </div>
+
+</body>
+</html>
+
