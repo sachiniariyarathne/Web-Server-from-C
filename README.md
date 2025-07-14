@@ -47,7 +47,6 @@ Web-Server-Project/
 │ ├── http_helper.h
 │ └── ...
 
----
 
 ## ⚙️ How to Compile and Run
 
@@ -63,7 +62,8 @@ Using Makefile:
 
 ```bash
 mingw32-make
-Or manual compilation: gcc -Wall -Wextra -Ilib -o server.exe server.c utils.c lib/file_helper.c lib/http_helper.c -lws2_32
+Or 
+manual compilation: gcc -Wall -Wextra -Ilib -o server.exe server.c utils.c lib/file_helper.c lib/http_helper.c -lws2_32
 
 ▶️ Run the Server
 ./server.exe
